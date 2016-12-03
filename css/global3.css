@@ -1,0 +1,591 @@
+BODY {
+	MIN-WIDTH: 700px; PADDING-BOTTOM: 0px; MARGIN: 0px auto; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: "Segoe UI", Verdana, Helvetica, Sans-Serif; FONT-SIZE: 9pt; PADDING-TOP: 0px
+}
+SELECT {
+	FONT-FAMILY: "Segoe UI", Verdana, Helvetica, Sans-Serif
+}
+INPUT {
+	FONT-FAMILY: "Segoe UI", Verdana, Helvetica, Sans-Serif
+}
+BUTTON {
+	FONT-FAMILY: "Segoe UI", Verdana, Helvetica, Sans-Serif
+}
+TEXTAREA {
+	FONT-FAMILY: "Segoe UI", Verdana, Helvetica, Sans-Serif
+}
+PRE {
+	FONT-FAMILY: "Segoe UI", Verdana, Helvetica, Sans-Serif
+}
+H1 {
+	FONT-FAMILY: "Segoe UI", Verdana, Helvetica, Sans-Serif
+}
+H2 {
+	FONT-FAMILY: "Segoe UI", Verdana, Helvetica, Sans-Serif
+}
+H3 {
+	FONT-FAMILY: "Segoe UI", Verdana, Helvetica, Sans-Serif
+}
+H4 {
+	FONT-FAMILY: "Segoe UI", Verdana, Helvetica, Sans-Serif
+}
+H5 {
+	FONT-FAMILY: "Segoe UI", Verdana, Helvetica, Sans-Serif
+}
+H6 {
+	FONT-FAMILY: "Segoe UI", Verdana, Helvetica, Sans-Serif
+}
+FORM {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 700px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.highlight {
+	MARGIN: auto; COLOR: #f00; FONT-WEIGHT: bold
+}
+.nospam {
+	DISPLAY: none
+}
+SPAN.required {
+	COLOR: #f00; FONT-WEIGHT: bold
+}
+DIV#language {
+	TEXT-ALIGN: right; MARGIN: 15px auto 0px; WIDTH: 70px; DISPLAY: block
+}
+DIV#language H2 {
+	DISPLAY: none
+}
+DIV#language SELECT {
+	BORDER-BOTTOM: #c0c0c0 1px solid; BORDER-LEFT: #c0c0c0 1px solid; PADDING-BOTTOM: 3px; PADDING-LEFT: 20px; PADDING-RIGHT: 3px; BACKGROUND: url(../images/worldwide.png) #fff no-repeat 4px center; BORDER-TOP: #c0c0c0 1px solid; BORDER-RIGHT: #c0c0c0 1px solid; PADDING-TOP: 3px; border-radius: 2px
+}
+DIV#language SELECT:hover {
+	BORDER-BOTTOM: #999 1px solid; BORDER-LEFT: #999 1px solid; BORDER-TOP: #999 1px solid; BORDER-RIGHT: #999 1px solid
+}
+DIV#language SELECT:focus {
+	BORDER-BOTTOM: #999 1px solid; BORDER-LEFT: #999 1px solid; BORDER-TOP: #999 1px solid; BORDER-RIGHT: #999 1px solid
+}
+H1 {
+	BORDER-BOTTOM: #55b0e6 3px solid; LINE-HEIGHT: 85px; MARGIN: 0px; WIDTH: 100%; WHITE-SPACE: nowrap; HEIGHT: 78px; COLOR: #aaa; FONT-SIZE: 20pt; OVERFLOW: hidden; FONT-WEIGHT: normal; PADDING-TOP: 15px
+}
+H1 > SPAN {
+	MARGIN: auto; WIDTH: 700px; DISPLAY: block
+}
+H1 SPAN.domain {
+	COLOR: #888
+}
+DIV#secured {
+	PADDING-BOTTOM: 0px; MARGIN: -74px auto 0px; PADDING-LEFT: 685px; WIDTH: 215px; PADDING-RIGHT: 0px; HEIGHT: 61px; PADDING-TOP: 0px
+}
+DIV#secured A {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 111px; PADDING-RIGHT: 0px; DISPLAY: block; FONT-FAMILY: Arial, Helvetica, Sans-Serif; BACKGROUND: url(../images/securedseal.png) no-repeat; HEIGHT: 58px; COLOR: #999; FONT-SIZE: 9px; TEXT-DECORATION: none; PADDING-TOP: 43px
+}
+DIV#main {
+	MARGIN: auto; WIDTH: 900px
+}
+DIV#main P.error {
+	LINE-HEIGHT: 150%; FONT-SIZE: 10.5pt
+}
+DIV#main P.error EM {
+	FONT-STYLE: italic; FONT-WEIGHT: bold
+}
+DIV#main P.title {
+	FONT-SIZE: 11pt; FONT-WEIGHT: bold
+}
+DIV#main P.info {
+	LINE-HEIGHT: 150%; FONT-SIZE: 10.5pt
+}
+DIV#main P.info EM {
+	FONT-STYLE: italic; FONT-WEIGHT: bold
+}
+DIV#main H2 {
+	PADDING-BOTTOM: 0px; TEXT-TRANSFORM: capitalize; MARGIN: 0px 0px 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #444; FONT-SIZE: 18pt; FONT-WEIGHT: normal; PADDING-TOP: 0px
+}
+DIV#main TABLE {
+	BORDER-BOTTOM: #ddd 1px solid; BORDER-LEFT: #ddd 1px solid; MARGIN: 0px 0px 5px; WIDTH: 100%; BORDER-COLLAPSE: collapse; BORDER-TOP: #ddd 1px solid; BORDER-RIGHT: #ddd 1px solid
+}
+DIV#main TABLE TR {
+	
+}
+DIV#main TABLE TR TH {
+	BORDER-BOTTOM: #e2e2e2 1px solid; TEXT-ALIGN: left; PADDING-BOTTOM: 4px; LINE-HEIGHT: 150%; PADDING-LEFT: 9px; PADDING-RIGHT: 9px; BACKGROUND: #efefef 0px 0px; HEIGHT: 20px; BORDER-RIGHT: #d9d9d9 1px solid; PADDING-TOP: 4px
+}
+DIV#main TABLE TR TH.qty {
+	TEXT-ALIGN: center; WIDTH: 12%
+}
+DIV#main TABLE TR TH.price {
+	TEXT-ALIGN: center; WIDTH: 12%
+}
+DIV#main TABLE TR TH.subtotal {
+	TEXT-ALIGN: center; WIDTH: 12%
+}
+DIV#main TABLE TR TH.status {
+	TEXT-ALIGN: center; WIDTH: 12%
+}
+DIV#main TABLE TR TD {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 4px; LINE-HEIGHT: 150%; PADDING-LEFT: 9px; PADDING-RIGHT: 9px; HEIGHT: 30px; BORDER-RIGHT: #e2e2e2 1px solid; PADDING-TOP: 4px
+}
+DIV#main TABLE TR TD.qty {
+	TEXT-ALIGN: center; WIDTH: 12%
+}
+DIV#main TABLE TR TD.price {
+	TEXT-ALIGN: center; WIDTH: 12%
+}
+DIV#main TABLE TR TD.subtotal {
+	TEXT-ALIGN: center; WIDTH: 12%
+}
+DIV#main TABLE TR TD.status {
+	TEXT-ALIGN: center; WIDTH: 12%
+}
+DIV#main TABLE TR TH.no {
+	TEXT-ALIGN: center; WIDTH: 20px
+}
+DIV#main TABLE TR TD.no {
+	TEXT-ALIGN: center; WIDTH: 20px
+}
+DIV#main TABLE TR TH.sku {
+	TEXT-ALIGN: center; WIDTH: 120px
+}
+DIV#main TABLE TR TD.sku {
+	TEXT-ALIGN: center; WIDTH: 120px
+}
+DIV#main TABLE TR TH.datetime {
+	TEXT-ALIGN: center; WIDTH: 150px
+}
+DIV#main TABLE TR TD.datetime {
+	TEXT-ALIGN: center; WIDTH: 150px
+}
+DIV#main TABLE TR TH.action {
+	TEXT-ALIGN: center; WIDTH: 12%
+}
+DIV#main TABLE TR TD.action {
+	TEXT-ALIGN: center; WIDTH: 12%
+}
+DIV#main P#info {
+	TEXT-ALIGN: right; LINE-HEIGHT: 150%; MARGIN: 10px 0px 0px
+}
+DIV#main P#info STRONG {
+	MARGIN-LEFT: 5px
+}
+DIV#main P#total {
+	TEXT-ALIGN: right; LINE-HEIGHT: 150%; MARGIN: 0px; COLOR: #f00; FONT-SIZE: 2.5em; FONT-WEIGHT: bold
+}
+DIV#main P#total STRONG {
+	COLOR: #000
+}
+DIV#main P.summary {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 27px; MARGIN: 15px 0px 0px 3px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DIV#main DIV#creditcardinfo {
+	PADDING-BOTTOM: 20px; WIDTH: 700px
+}
+DIV#main DIV#shippingaddress {
+	PADDING-BOTTOM: 20px; WIDTH: 700px
+}
+DIV#main DIV#billingaddress {
+	PADDING-BOTTOM: 20px; WIDTH: 700px
+}
+DIV#main DIV#creditcardinfo H3 {
+	BORDER-BOTTOM: #ddd 1px solid; PADDING-BOTTOM: 5px; TEXT-TRANSFORM: capitalize; MARGIN: 25px 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #444; FONT-SIZE: 18pt; FONT-WEIGHT: normal; PADDING-TOP: 0px
+}
+DIV#main DIV#shippingaddress H3 {
+	BORDER-BOTTOM: #ddd 1px solid; PADDING-BOTTOM: 5px; TEXT-TRANSFORM: capitalize; MARGIN: 25px 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #444; FONT-SIZE: 18pt; FONT-WEIGHT: normal; PADDING-TOP: 0px
+}
+DIV#main DIV#billingaddress H3 {
+	BORDER-BOTTOM: #ddd 1px solid; PADDING-BOTTOM: 5px; TEXT-TRANSFORM: capitalize; MARGIN: 25px 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #444; FONT-SIZE: 18pt; FONT-WEIGHT: normal; PADDING-TOP: 0px
+}
+DIV#main DIV#creditcardinfo DL {
+	PADDING-BOTTOM: 0px; MARGIN: 15px 0px 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: block; PADDING-TOP: 0px
+}
+DIV#main DIV#shippingaddress DL {
+	PADDING-BOTTOM: 0px; MARGIN: 15px 0px 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: block; PADDING-TOP: 0px
+}
+DIV#main DIV#billingaddress DL {
+	PADDING-BOTTOM: 0px; MARGIN: 15px 0px 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: block; PADDING-TOP: 0px
+}
+DIV#main DIV#creditcardinfo DL DT {
+	TEXT-ALIGN: right; LINE-HEIGHT: 25px; MARGIN: 0px 10px 0px 0px; WIDTH: 200px; DISPLAY: block; FLOAT: left
+}
+DIV#main DIV#shippingaddress DL DT {
+	TEXT-ALIGN: right; LINE-HEIGHT: 25px; MARGIN: 0px 10px 0px 0px; WIDTH: 200px; DISPLAY: block; FLOAT: left
+}
+DIV#main DIV#billingaddress DL DT {
+	TEXT-ALIGN: right; LINE-HEIGHT: 25px; MARGIN: 0px 10px 0px 0px; WIDTH: 200px; DISPLAY: block; FLOAT: left
+}
+DIV#main DIV#creditcardinfo DL DT LABEL:after {
+	CONTENT: ':'
+}
+DIV#main DIV#shippingaddress DL DT LABEL:after {
+	CONTENT: ':'
+}
+DIV#main DIV#billingaddress DL DT LABEL:after {
+	CONTENT: ':'
+}
+DIV#main DIV#creditcardinfo DL DD {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 23px; MARGIN: 0px 0px 0px 250px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: block; PADDING-TOP: 0px
+}
+DIV#main DIV#shippingaddress DL DD {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 23px; MARGIN: 0px 0px 0px 250px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: block; PADDING-TOP: 0px
+}
+DIV#main DIV#billingaddress DL DD {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 23px; MARGIN: 0px 0px 0px 250px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: block; PADDING-TOP: 0px
+}
+DIV#main DIV#creditcardinfo DL DD INPUT[type='text'] {
+	BORDER-BOTTOM: #c0c0c0 1px solid; BORDER-LEFT: #c0c0c0 1px solid; PADDING-BOTTOM: 3px; MARGIN: 0px; PADDING-LEFT: 3px; WIDTH: 200px; PADDING-RIGHT: 3px; BORDER-TOP: #c0c0c0 1px solid; BORDER-RIGHT: #c0c0c0 1px solid; PADDING-TOP: 3px; border-radius: 2px
+}
+DIV#main DIV#shippingaddress DL DD INPUT[type='text'] {
+	BORDER-BOTTOM: #c0c0c0 1px solid; BORDER-LEFT: #c0c0c0 1px solid; PADDING-BOTTOM: 3px; MARGIN: 0px; PADDING-LEFT: 3px; WIDTH: 200px; PADDING-RIGHT: 3px; BORDER-TOP: #c0c0c0 1px solid; BORDER-RIGHT: #c0c0c0 1px solid; PADDING-TOP: 3px; border-radius: 2px
+}
+DIV#main DIV#billingaddress DL DD INPUT[type='text'] {
+	BORDER-BOTTOM: #c0c0c0 1px solid; BORDER-LEFT: #c0c0c0 1px solid; PADDING-BOTTOM: 3px; MARGIN: 0px; PADDING-LEFT: 3px; WIDTH: 200px; PADDING-RIGHT: 3px; BORDER-TOP: #c0c0c0 1px solid; BORDER-RIGHT: #c0c0c0 1px solid; PADDING-TOP: 3px; border-radius: 2px
+}
+DIV#main DIV#creditcardinfo DL DD SELECT {
+	BORDER-BOTTOM: #c0c0c0 1px solid; BORDER-LEFT: #c0c0c0 1px solid; PADDING-BOTTOM: 2px; MARGIN: 0px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; BORDER-TOP: #c0c0c0 1px solid; BORDER-RIGHT: #c0c0c0 1px solid; PADDING-TOP: 2px; border-radius: 2px
+}
+DIV#main DIV#shippingaddress DL DD SELECT {
+	BORDER-BOTTOM: #c0c0c0 1px solid; BORDER-LEFT: #c0c0c0 1px solid; PADDING-BOTTOM: 2px; MARGIN: 0px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; BORDER-TOP: #c0c0c0 1px solid; BORDER-RIGHT: #c0c0c0 1px solid; PADDING-TOP: 2px; border-radius: 2px
+}
+DIV#main DIV#billingaddress DL DD SELECT {
+	BORDER-BOTTOM: #c0c0c0 1px solid; BORDER-LEFT: #c0c0c0 1px solid; PADDING-BOTTOM: 2px; MARGIN: 0px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; BORDER-TOP: #c0c0c0 1px solid; BORDER-RIGHT: #c0c0c0 1px solid; PADDING-TOP: 2px; border-radius: 2px
+}
+DIV#main DIV#creditcardinfo DL DD INPUT[type='text']:hover {
+	BORDER-BOTTOM: #999 1px solid; BORDER-LEFT: #999 1px solid; BORDER-TOP: #999 1px solid; BORDER-RIGHT: #999 1px solid
+}
+DIV#main DIV#shippingaddress DL DD INPUT[type='text']:hover {
+	BORDER-BOTTOM: #999 1px solid; BORDER-LEFT: #999 1px solid; BORDER-TOP: #999 1px solid; BORDER-RIGHT: #999 1px solid
+}
+DIV#main DIV#billingaddress DL DD INPUT[type='text']:hover {
+	BORDER-BOTTOM: #999 1px solid; BORDER-LEFT: #999 1px solid; BORDER-TOP: #999 1px solid; BORDER-RIGHT: #999 1px solid
+}
+DIV#main DIV#creditcardinfo DL DD SELECT:hover {
+	BORDER-BOTTOM: #999 1px solid; BORDER-LEFT: #999 1px solid; BORDER-TOP: #999 1px solid; BORDER-RIGHT: #999 1px solid
+}
+DIV#main DIV#shippingaddress DL DD SELECT:hover {
+	BORDER-BOTTOM: #999 1px solid; BORDER-LEFT: #999 1px solid; BORDER-TOP: #999 1px solid; BORDER-RIGHT: #999 1px solid
+}
+DIV#main DIV#billingaddress DL DD SELECT:hover {
+	BORDER-BOTTOM: #999 1px solid; BORDER-LEFT: #999 1px solid; BORDER-TOP: #999 1px solid; BORDER-RIGHT: #999 1px solid
+}
+DIV#main DIV#creditcardinfo DL DD INPUT[type='text']:focus {
+	BORDER-BOTTOM: #999 1px solid; BORDER-LEFT: #999 1px solid; BORDER-TOP: #999 1px solid; BORDER-RIGHT: #999 1px solid
+}
+DIV#main DIV#shippingaddress DL DD INPUT[type='text']:focus {
+	BORDER-BOTTOM: #999 1px solid; BORDER-LEFT: #999 1px solid; BORDER-TOP: #999 1px solid; BORDER-RIGHT: #999 1px solid
+}
+DIV#main DIV#billingaddress DL DD INPUT[type='text']:focus {
+	BORDER-BOTTOM: #999 1px solid; BORDER-LEFT: #999 1px solid; BORDER-TOP: #999 1px solid; BORDER-RIGHT: #999 1px solid
+}
+DIV#main DIV#creditcardinfo DL DD SELECT:focus {
+	BORDER-BOTTOM: #999 1px solid; BORDER-LEFT: #999 1px solid; BORDER-TOP: #999 1px solid; BORDER-RIGHT: #999 1px solid
+}
+DIV#main DIV#shippingaddress DL DD SELECT:focus {
+	BORDER-BOTTOM: #999 1px solid; BORDER-LEFT: #999 1px solid; BORDER-TOP: #999 1px solid; BORDER-RIGHT: #999 1px solid
+}
+DIV#main DIV#billingaddress DL DD SELECT:focus {
+	BORDER-BOTTOM: #999 1px solid; BORDER-LEFT: #999 1px solid; BORDER-TOP: #999 1px solid; BORDER-RIGHT: #999 1px solid
+}
+DIV#main DIV#creditcardinfo DL DD SPAN.help {
+	FONT-WEIGHT: bold
+}
+DIV#main DIV#shippingaddress DL DD SPAN.help {
+	FONT-WEIGHT: bold
+}
+DIV#main DIV#billingaddress DL DD SPAN.help {
+	FONT-WEIGHT: bold
+}
+DIV#main DIV#creditcardinfo DL DD SPAN.tips {
+	FONT-STYLE: italic; MARGIN-TOP: -3px; DISPLAY: block; FONT-SIZE: 0.9em
+}
+DIV#main DIV#shippingaddress DL DD SPAN.tips {
+	FONT-STYLE: italic; MARGIN-TOP: -3px; DISPLAY: block; FONT-SIZE: 0.9em
+}
+DIV#main DIV#billingaddress DL DD SPAN.tips {
+	FONT-STYLE: italic; MARGIN-TOP: -3px; DISPLAY: block; FONT-SIZE: 0.9em
+}
+DIV#main DIV#creditcardinfo {
+	BORDER-BOTTOM: #ddd 1px solid; MARGIN-BOTTOM: 10px; MARGIN-LEFT: 100px
+}
+DIV#main DIV#creditcardinfo DL.creditcardtype DD IMG {
+	VERTICAL-ALIGN: bottom; MARGIN-RIGHT: 15px
+}
+DIV#main DIV#creditcardinfo DL.creditcardnumber DD INPUT {
+	WIDTH: 303px
+}
+DIV#main DIV#creditcardinfo DL.creditcardnumber DD DIV#supportedcreditcards {
+	POSITION: absolute; TEXT-ALIGN: right; MARGIN-TOP: -22px; WIDTH: 170px; MARGIN-LEFT: 137px; _margin-top: 3px
+}
+DIV#main DIV#creditcardinfo DL.creditcardnumber DD DIV#supportedcreditcards IMG {
+	HEIGHT: 19px; opacity: .5
+}
+DIV#main DIV#creditcardinfo DL.securitycode DD SPAN.help IMG {
+	DISPLAY: none
+}
+DIV#main DIV#creditcardinfo DL.securitycode DD SPAN.help:hover IMG {
+	POSITION: absolute; MARGIN-TOP: 20px; DISPLAY: inline; MARGIN-LEFT: -110px
+}
+DIV#main DIV#shippingaddress DL.shippingaddress1 DD INPUT {
+	WIDTH: 300px
+}
+DIV#main DIV#shippingaddress DL.shippingaddress2 DD INPUT {
+	WIDTH: 300px
+}
+DIV#main DIV#billingaddress DL.billingaddress1 DD INPUT {
+	WIDTH: 300px
+}
+DIV#main DIV#billingaddress DL.billingaddress2 DD INPUT {
+	WIDTH: 300px
+}
+DIV#main DIV#shippingaddress DL.shippingaddress2 DT LABEL {
+	DISPLAY: none
+}
+DIV#main DIV#billingaddress DL.billingaddress2 DT LABEL {
+	DISPLAY: none
+}
+DIV#main P.submit {
+	PADDING-BOTTOM: 5px; MARGIN: 0px; PADDING-LEFT: 350px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DIV#main P.submit INPUT {
+	BORDER-BOTTOM: medium none; MIN-WIDTH: 160px; BORDER-LEFT: medium none; PADDING-BOTTOM: 7px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; BACKGROUND: #fc0; COLOR: #a64015; FONT-SIZE: 13pt; BORDER-TOP: medium none; CURSOR: pointer; FONT-WEIGHT: bold; BORDER-RIGHT: medium none; PADDING-TOP: 7px; border-radius: 2px
+}
+DIV#main DIV.collapse H3 {
+	BACKGROUND: url(/images/expand.gif) no-repeat right 50%; BORDER-TOP: #ccc 1px solid; CURSOR: pointer
+}
+DIV#main DIV.collapse H3 {
+	BACKGROUND: url(/images/expand.gif) no-repeat right 50%; BORDER-TOP: #ccc 1px solid; CURSOR: pointer
+}
+DIV#main DIV.collapse H3:hover {
+	BACKGROUND-COLOR: #f5f5f5
+}
+DIV#main DIV.collapse H3:hover {
+	BACKGROUND-COLOR: #f5f5f5
+}
+DIV#main DIV.collapse DIV.form {
+	DISPLAY: none
+}
+DIV#main DIV.collapse DIV.form {
+	DISPLAY: none
+}
+DIV#main DIV#billingaddress DIV.form {
+	BORDER-BOTTOM: #ccc 1px solid; PADDING-BOTTOM: 20px
+}
+DIV#main TABLE#orderinfo {
+	MARGIN-BOTTOM: 15px
+}
+DIV#main DIV.order-related-info {
+	MARGIN-TOP: 10px; WIDTH: 50%; FLOAT: left
+}
+DIV#main DIV.order-related-info H3 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px 0px 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: block; FONT-SIZE: 10.5pt; PADDING-TOP: 0px
+}
+DIV#main DIV.order-related-info TABLE {
+	MARGIN-TOP: 3px; WIDTH: 405px; BORDER-COLLAPSE: collapse
+}
+DIV#main DIV.order-related-info TABLE TR TH {
+	TEXT-ALIGN: left; LINE-HEIGHT: 23px; WIDTH: 125px; FONT-WEIGHT: normal
+}
+DIV#main DIV.order-related-info TABLE TR TD {
+	TEXT-ALIGN: left; LINE-HEIGHT: 23px; FONT-WEIGHT: normal
+}
+DIV#main DIV.order-related-info P {
+	LINE-HEIGHT: 150%; MARGIN: 3px 0px 0px
+}
+DIV#main DIV#billing {
+	
+}
+DIV#main DIV#shipping H3 {
+	MARGIN-RIGHT: 5px
+}
+DIV#main DIV#shipping TABLE {
+	MARGIN-RIGHT: 5px
+}
+DIV#main DIV#billing H3 {
+	MARGIN-LEFT: 5px
+}
+DIV#main DIV#billing TABLE {
+	MARGIN-LEFT: 5px
+}
+DIV#main DIV#billing P {
+	MARGIN-LEFT: 5px
+}
+DIV#main DIV#custproblem {
+	CLEAR: both
+}
+DIV#main DIV#custproblem H3 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px 0px 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-SIZE: 10.5pt; PADDING-TOP: 10px
+}
+DIV#main DIV#newproblem {
+	MARGIN-TOP: 15px
+}
+DIV#main DIV#newproblem H3 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px 0px 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-SIZE: 10.5pt; PADDING-TOP: 10px
+}
+DIV#main DIV#newproblem DL {
+	MARGIN: 0px 0px 10px; DISPLAY: block
+}
+DIV#main DIV#newproblem DL DT {
+	PADDING-BOTTOM: 0px; MARGIN: 0px 0px 3px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DIV#main DIV#newproblem DL DT LABEL:after {
+	CONTENT: ":"
+}
+DIV#main DIV#newproblem DL DD {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DIV#main DIV#newproblem DL DD INPUT[type='text'] {
+	BORDER-BOTTOM: #c0c0c0 1px solid; BORDER-LEFT: #c0c0c0 1px solid; PADDING-BOTTOM: 3px; MARGIN: 0px; PADDING-LEFT: 3px; WIDTH: 280px; PADDING-RIGHT: 3px; BORDER-TOP: #c0c0c0 1px solid; BORDER-RIGHT: #c0c0c0 1px solid; PADDING-TOP: 3px; border-radius: 2px
+}
+DIV#main DIV#newproblem DL DD TEXTAREA {
+	BORDER-BOTTOM: #c0c0c0 1px solid; BORDER-LEFT: #c0c0c0 1px solid; PADDING-BOTTOM: 3px; MARGIN: 0px; PADDING-LEFT: 3px; WIDTH: 280px; PADDING-RIGHT: 3px; BORDER-TOP: #c0c0c0 1px solid; BORDER-RIGHT: #c0c0c0 1px solid; PADDING-TOP: 3px; border-radius: 2px
+}
+DIV#main DIV#newproblem DL DD TEXTAREA {
+	WIDTH: 400px; HEIGHT: 100px
+}
+DIV#main DIV#newproblem DL DD INPUT[type='text']:hover {
+	BORDER-BOTTOM: #999 1px solid; BORDER-LEFT: #999 1px solid; BORDER-TOP: #999 1px solid; BORDER-RIGHT: #999 1px solid
+}
+DIV#main DIV#newproblem DL DD TEXTAREA:hover {
+	BORDER-BOTTOM: #999 1px solid; BORDER-LEFT: #999 1px solid; BORDER-TOP: #999 1px solid; BORDER-RIGHT: #999 1px solid
+}
+DIV#main DIV#newproblem P.submit {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0px
+}
+DIV#main PRE {
+	BORDER-BOTTOM: #c0c0c0 1px solid; BORDER-LEFT: #c0c0c0 1px solid; PADDING-BOTTOM: 10px; MARGIN: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; WORD-WRAP: break-word; BACKGROUND: #d2dde4; WORD-BREAK: normal; BORDER-TOP: #c0c0c0 1px solid; BORDER-RIGHT: #c0c0c0 1px solid; PADDING-TOP: 10px
+}
+DIV#main P.rinfo {
+	PADDING-BOTTOM: 0px; MARGIN: 5px 0px 15px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DIV#main DIV#item-cr DIV#reply DL {
+	MARGIN: 0px 0px 10px; DISPLAY: block
+}
+DIV#main DIV#item-cr DIV#reply DL DT {
+	PADDING-BOTTOM: 0px; MARGIN: 0px 0px 3px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DIV#main DIV#item-cr DIV#reply DL DT LABEL:after {
+	CONTENT: ':'
+}
+DIV#main DIV#item-cr DIV#reply DL DD {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DIV#main DIV#item-cr DIV#reply DL DD TEXTAREA {
+	BORDER-BOTTOM: #c0c0c0 1px solid; BORDER-LEFT: #c0c0c0 1px solid; PADDING-BOTTOM: 3px; MARGIN: 0px; PADDING-LEFT: 3px; WIDTH: 400px; PADDING-RIGHT: 3px; HEIGHT: 100px; BORDER-TOP: #c0c0c0 1px solid; BORDER-RIGHT: #c0c0c0 1px solid; PADDING-TOP: 3px; border-radius: 2px
+}
+DIV#main DIV#item-cr DIV#reply DL DD TEXTAREA:hover {
+	BORDER-BOTTOM: #999 1px solid; BORDER-LEFT: #999 1px solid; BORDER-TOP: #999 1px solid; BORDER-RIGHT: #999 1px solid
+}
+DIV#main DIV#item-cr DIV#reply P.submit {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0px
+}
+DIV#footer {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 150%; MARGIN: 15px auto 50px; PADDING-LEFT: 0px; WIDTH: 550px; PADDING-RIGHT: 350px; BACKGROUND: url(../images/certservices.png) no-repeat 590px 3px; HEIGHT: 50px; COLOR: #888; FONT-SIZE: 9.5pt; PADDING-TOP: 0px
+}
+DIV#footer P {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DIV#footer P A {
+	COLOR: #888
+}
+DIV#footer P A:hover {
+	COLOR: #888; TEXT-DECORATION: none
+}
+DIV#footer P#protect {
+	DISPLAY: none; MARGIN-BOTTOM: 8px; LETTER-SPACING: 1px
+}
+DIV#footer P#protect IMG {
+	MARGIN-BOTTOM: 2px; VERTICAL-ALIGN: middle
+}
+DIV#footer P#copyright {
+	DISPLAY: inline
+}
+DIV#footer P#docs {
+	DISPLAY: inline; MARGIN-LEFT: 5px
+}
+P#noscript {
+	POSITION: fixed; TEXT-ALIGN: center; LINE-HEIGHT: 65px; MARGIN: 0px; BACKGROUND: #fc6; HEIGHT: 65px; FONT-SIZE: 11pt; TOP: 0px; RIGHT: 0px; LEFT: 0px
+}
+P#noscript A {
+	COLOR: #333
+}
+P#noscript A:hover {
+	TEXT-DECORATION: none
+}
+.field-validation-error {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; COLOR: #f00; PADDING-TOP: 2px; border-radius: 2px
+}
+.input-validation-error {
+	BORDER-BOTTOM: #f00 1px solid; BORDER-LEFT: #f00 1px solid; BORDER-TOP: #f00 1px solid; BORDER-RIGHT: #f00 1px solid; box-shadow: 0 0 3px #f00
+}
+.validation-summary-errors {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 10px; MARGIN: 0px 0px 5px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BACKGROUND: #ffc; COLOR: #f00; BORDER-TOP: #ccc 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 10px
+}
+.validation-summary-errors UL {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 18px; MARGIN: 0px 0px 0px 25px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+BODY.redirect DIV#main P.info {
+	BORDER-BOTTOM: #ccc 1px solid; PADDING-BOTTOM: 20px; MARGIN-BOTTOM: 20px
+}
+BODY.docs DIV#main DIV#feedback DL {
+	PADDING-BOTTOM: 0px; MARGIN: 15px 0px 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: block; PADDING-TOP: 0px
+}
+BODY.docs DIV#main DIV#feedback DL DT {
+	LINE-HEIGHT: 25px; MARGIN: 0px 10px 0px 0px; DISPLAY: block; FONT-WEIGHT: bold
+}
+BODY.docs DIV#main DIV#feedback DL DT LABEL:after {
+	CONTENT: ':'
+}
+BODY.docs DIV#main DIV#feedback DL DD {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 23px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: block; PADDING-TOP: 0px
+}
+BODY.docs DIV#main DIV#feedback DL DD INPUT[type='text'] {
+	BORDER-BOTTOM: #c0c0c0 1px solid; BORDER-LEFT: #c0c0c0 1px solid; PADDING-BOTTOM: 3px; MARGIN: 0px; PADDING-LEFT: 3px; WIDTH: 200px; PADDING-RIGHT: 3px; BORDER-TOP: #c0c0c0 1px solid; BORDER-RIGHT: #c0c0c0 1px solid; PADDING-TOP: 3px; border-radius: 2px
+}
+BODY.docs DIV#main DIV#feedback DL DD TEXTAREA {
+	BORDER-BOTTOM: #c0c0c0 1px solid; BORDER-LEFT: #c0c0c0 1px solid; PADDING-BOTTOM: 3px; MARGIN: 0px; PADDING-LEFT: 3px; WIDTH: 200px; PADDING-RIGHT: 3px; BORDER-TOP: #c0c0c0 1px solid; BORDER-RIGHT: #c0c0c0 1px solid; PADDING-TOP: 3px; border-radius: 2px
+}
+BODY.docs DIV#main DIV#feedback DL DD TEXTAREA {
+	WIDTH: 400px
+}
+BODY.docs DIV#main DIV#feedback P.submit {
+	PADDING-BOTTOM: 0px; MARGIN: 15px 0px 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DIV#main DIV.details-wrapper {
+	DISPLAY: none
+}
+DIV#main DIV#securedcardlogo {
+	DISPLAY: none
+}
+DIV#main DIV#shippingaddress {
+	DISPLAY: none
+}
+DIV#main DIV#billingaddress {
+	DISPLAY: none
+}
+#foot {
+	BORDER-BOTTOM: #ddd 1px solid; TEXT-ALIGN: right; BORDER-LEFT: #ddd 1px solid; PADDING-BOTTOM: 10px; MARGIN: 20px auto; PADDING-LEFT: 10px; WIDTH: 700px; PADDING-RIGHT: 10px; BORDER-TOP: #ddd 1px solid; BORDER-RIGHT: #ddd 1px solid; PADDING-TOP: 10px
+}
+.lanclick {
+	MARGIN: auto; WIDTH: 700px; CLEAR: both
+}
+.language {
+	TEXT-ALIGN: right; MARGIN: auto; WIDTH: 700px; PADDING-RIGHT: 20px; PADDING-TOP: 10px
+}
+.lanclick P SPAN {
+	PADDING-LEFT: 20px; COLOR: #158fb0; FONT-SIZE: 30px; VERTICAL-ALIGN: super
+}
+#ProductsTable {
+	BORDER-BOTTOM: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BACKGROUND: #158fb0 0px 0px; BORDER-TOP: #ffffff 1px solid; BORDER-RIGHT: #ffffff 1px solid; PADDING-TOP: 10px
+}
+#Total LABEL {
+	COLOR: #fff; FONT-SIZE: 16px; FONT-WEIGHT: bold
+}
+#Total SPAN {
+	COLOR: #efefc6; FONT-SIZE: 15px; MARGIN-RIGHT: 5px
+}
+#Total A {
+	COLOR: #ffff3f
+}
+#Total A SPAN {
+	COLOR: #ffff3f
+}
+.language IMG {
+	DISPLAY: none; VERTICAL-ALIGN: top
+}
+#foot IMG {
+	
+}
